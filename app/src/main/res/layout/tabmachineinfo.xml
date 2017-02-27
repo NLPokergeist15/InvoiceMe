@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.cheapassapps.app.invoiceme.MainActivity$PlaceholderFragment"
+    android:background="@color/tanbackground">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editTextManufacturer"
+        android:hint="Manufacturer"
+        android:drawablePadding="15dp"
+        android:padding="16dp"
+        android:background="@drawable/edittextbg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editText3"
+            android:layout_toRightOf="@+id/section_label"
+            android:layout_toEndOf="@+id/section_label"
+            android:id="@+id/editText11"
+            android:hint="Model"
+            android:drawablePadding="15dp"
+            android:padding="16dp"
+            android:background="@drawable/edittextbg"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/editText11"
+            android:layout_toRightOf="@+id/section_label"
+            android:layout_toEndOf="@+id/section_label"
+            android:id="@+id/editText12"
+            android:hint="Model #"
+            android:drawablePadding="15dp"
+            android:padding="16dp"
+            android:background="@drawable/edittextbg"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_below="@+id/editText12"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label"
+        android:id="@+id/editText13"
+        android:hint="Serial #"
+        android:drawablePadding="15dp"
+        android:padding="16dp"
+        android:background="@drawable/edittextbg"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:ems="10"
+        android:layout_below="@+id/editText13"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText14"
+        android:hint="Problem Description"
+        android:drawablePadding="15dp"
+        android:padding="16dp"
+        android:background="@drawable/edittextbg"
+        tools:gravity="top|left"
+        android:gravity="top|left" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:minLines="4"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editText15"
+        android:hint="Work Performed"
+        android:layout_below="@+id/editText14"
+        android:drawablePadding="15dp"
+        android:padding="16dp"
+        android:background="@drawable/edittextbg"
+        android:gravity="top|left" />
+
+</LinearLayout>
